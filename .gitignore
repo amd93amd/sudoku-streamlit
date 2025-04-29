@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Streamlit-specific files
+.streamlit/
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore package files
+*.egg-info/
